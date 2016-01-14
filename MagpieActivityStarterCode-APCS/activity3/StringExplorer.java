@@ -23,6 +23,13 @@ public class StringExplorer
 		System.out.println ("After toLowerCase(), sample = " + sample);
 		
 		//  Try other methods here:
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+		
+		int h = sample.indexOf("h");
+		System.out.println("sample.indexOf(\"h\") = " + h);
+		int otherh = sample.indexOf( "h", h+1);
+		System.out.println("sample.indexOf(\"h\", h+1) = " + otherh);
 
 	}
 
